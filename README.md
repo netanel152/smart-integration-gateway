@@ -1,11 +1,20 @@
 # Smart Integration Gateway
 
-> Hybrid backend playground combining **.NET 8**, **NestJS** and a small **Python/AI** microservice.  
-> Goal: showcase integrations, cloud deployment and AI enrichment.
+A backend showcase project combining `.NET 8`, `NestJS`, and an AI-powered microservice (Python/OpenAI).  
+This project demonstrates real-world integrations, clean architecture, and cloud-native deployment.
+
+## Tech Stack
+- .NET 8 Web API (Inventory Service)
+- NestJS (Auth & Gateway Services)
+- RabbitMQ + Redis (Messaging & Caching)
+- Python (OpenAI Microservice)
+- Docker + GitHub Actions + AWS (Deployment)
 
 ## Roadmap
-- [ ] .NET Ping API
-- [ ] NestJS Auth Service
-- [ ] Redis + RabbitMQ bridge
-- [ ] Python OpenAI microservice
-- [ ] Docker Compose & AWS deployment
+- [ ] ✅ Create GitHub repo and base README
+- [ ] .NET Ping API + Dockerfile
+- [ ] NestJS Auth Service + JWT
+- [ ] Redis cache setup
+- [ ] Python microservice using OpenAI API
+- [ ] Docker Compose for orchestration
+- [ ] Deploy to AWS with GitHub Actions
